@@ -10,8 +10,14 @@ public class kafe07 {
         System.out.println("==========================");
         System.out.println("Silahkan pilih menu yang Anda inginkan.");
     }
+    
+    public static int jmlMenu() {
+        int jumlah = 6;
+        return jumlah;
+    }
 
     public static void main(String[] args) {
     Menu();    
+    System.out.println(jmlMenu());
     }    
 }
